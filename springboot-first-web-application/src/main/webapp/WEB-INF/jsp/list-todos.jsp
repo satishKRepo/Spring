@@ -5,8 +5,10 @@
 </head>
 
 <body>
-Welcome to Todo's ${todos}
+	Here are the list of ${name}'s todos:
+	${todos}.
+	<BR/>
+	<a href="/add-todo">Add a Todo</a> 
 </body>
-
 
 </html>

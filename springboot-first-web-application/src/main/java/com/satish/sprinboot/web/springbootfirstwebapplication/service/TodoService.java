@@ -12,13 +12,15 @@ import com.satish.sprinboot.web.springbootfirstwebapplication.model.Todo;
 @Service
 public class TodoService {
     private static List<Todo> todos = new ArrayList<Todo>();
-    private static int todoCount = 3;
+    private static int todoCount = 4;
 
     static {
         todos.add(new Todo(1, "in28Minutes", "Learn Spring MVC", new Date(),
                 false));
-        todos.add(new Todo(2, "in28Minutes", "Learn Struts", new Date(), false));
+        todos.add(new Todo(2, "in28Minutes", "Learn Springboot", new Date(), false));
         todos.add(new Todo(3, "in28Minutes", "Learn Hibernate", new Date(),
+                false));
+        todos.add(new Todo(4, "in28Minutes", "Learn AWS", new Date(),
                 false));
     }
 
